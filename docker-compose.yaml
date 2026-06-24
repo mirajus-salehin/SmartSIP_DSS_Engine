@@ -1,0 +1,12 @@
+services:
+
+  smartsip-dss:
+
+    build: .
+
+    container_name: smartsip-dss
+
+    ports:
+      - "8501:8501"
+
+    restart: unless-stopped

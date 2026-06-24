@@ -1,0 +1,27 @@
+/* ===== Text Input ===== */
+
+.stTextInput label {
+    font-size:16px;
+    font-weight:600;
+    color:#1f2937;
+}
+
+.stTextInput input {
+    background-color:#ffffff;
+    border:2px solid #d1d5db;
+    border-radius:10px;
+
+    padding:10px 14px;
+
+    font-size:15px;
+    color:#111827;
+
+    transition:0.3s;
+}
+
+.stTextInput input:focus {
+    border-color:#f98e02;
+
+    box-shadow:
+        0 0 0 3px rgba(37,99,235,0.15);
+}
