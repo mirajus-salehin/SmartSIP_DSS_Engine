@@ -109,3 +109,10 @@ if clicked:
     if new_location != st.session_state.selected_location:
 
         st.session_state.selected_location = new_location
+
+
+if st.button("Analyze Nearby Solar Panels"):
+
+    st.switch_page(
+        "pages/nearest_panels.py"
+    )
